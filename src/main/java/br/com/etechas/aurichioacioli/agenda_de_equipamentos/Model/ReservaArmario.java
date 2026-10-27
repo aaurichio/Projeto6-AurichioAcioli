@@ -1,4 +1,4 @@
-package br.com.etechas.aurichioacioli.agenda_de_equipamentos.Entity;
+package br.com.etechas.aurichioacioli.agenda_de_equipamentos.Model;
 
 
 import jakarta.persistence.*;
@@ -29,4 +29,7 @@ public class ReservaArmario {
 
     @Column(name = "DT_FIM")
     private LocalDateTime dataFim;
+
+    @Column(name = "ATIVO")
+    private Boolean ativo;
 }
